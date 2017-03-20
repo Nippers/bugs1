@@ -6,8 +6,8 @@
   </div>
   <!--<div id='nav_buttons'>-->
     <button class="button" onclick="Afunction()">probiotics</button>
-    <button class="button"onclick="Afunction()">digests</button>
-    <button class="button"onclick="Afunction()">research</button>
+    <button class="button" onclick="Afunction()">digests</button>
+    <button class="button" onclick="Afunction()">research</button>
     <button class="button" id='topics' onclick="Afunction()">(topics) abstracts</button>
     <button class="button" id='press' onclick="Afunction()">press releases</button>
     <button class="button" onclick="Afunction()">about us</button>
@@ -25,9 +25,9 @@
   </div>
   <div class='paragraph' id='moreInfo'>
     For More Info About:<br>
-    <u>- Research disorders<br>
-    - Digests for probiotics strains<br>
-    - Products containing probioitics</u>
+    <u><a onclick="Afunction()" href="#">- Research disorders</a><br>
+    <a onclick="Afunction()" href="#">- Digests for probiotics strains</a><br>
+    <a onclick="Afunction()" href="#">- Products containing probioitics</a></u>
   </div>
 
   <!-- background change button -->
@@ -56,6 +56,9 @@ body {
     background-repeat: no-repeat;
     background-color: white;
     padding: 0em;
+}
+a{
+  color:white;
 }
 #logo{
   padding:0em;
@@ -228,3 +231,4 @@ function nextPic(){
 
 
 </script>
+
