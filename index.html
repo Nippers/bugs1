@@ -1,0 +1,230 @@
+<head>
+</head>
+<body>
+  <div id='logo'>
+    <img src="slanty_logo.png" style="width:700px;height:230px;">
+  </div>
+  <!--<div id='nav_buttons'>-->
+    <button class="button" onclick="Afunction()">probiotics</button>
+    <button class="button"onclick="Afunction()">digests</button>
+    <button class="button"onclick="Afunction()">research</button>
+    <button class="button" id='topics' onclick="Afunction()">(topics) abstracts</button>
+    <button class="button" id='press' onclick="Afunction()">press releases</button>
+    <button class="button" onclick="Afunction()">about us</button>
+  <!--</div>-->
+  <div id='underline'></div>
+  <div id='leftBox'></div>
+  <div id='rightBox'></div>
+
+  <button id="home" onclick="Afunction()">Home</button>
+  <button id="signin" onclick="Afunction()">Sign In</button>
+  <button id="join" onclick="Afunction()">Join</button>
+
+  <div class='paragraph' id='whatsBuggingYou'>
+      What's Bugging You?:
+  </div>
+  <div class='paragraph' id='moreInfo'>
+    For More Info About:<br>
+    <u>- Research disorders<br>
+    - Digests for probiotics strains<br>
+    - Products containing probioitics</u>
+  </div>
+
+  <!-- background change button -->
+  <button id="nextPic" onclick="nextPic()">Change Background (demo only)</button>
+
+  <div id='footer'></div>
+  <div id='call'>Call us: 303-997-0461</div>
+  <div id='social'>
+    <img src='https://image.flaticon.com/icons/svg/174/174876.svg' style="width:50px;height:50px;">
+    <img src='https://image.flaticon.com/icons/svg/174/174857.svg' style="width:50px;height:50px;">
+    <img src='https://image.flaticon.com/icons/svg/174/174848.svg' style="width:50px;height:50px;">
+    <img src='https://image.flaticon.com/icons/svg/174/174851.svg' style="width:50px;height:50px;">
+    <img src='https://image.flaticon.com/icons/svg/174/174849.svg' style="width:50px;height:50px;">
+    <img src='https://image.flaticon.com/icons/svg/174/174883.svg' style="width:50px;height:50px;">
+  <div>
+
+</body>
+
+<style>
+body {
+    background-image: url('background.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: white;
+    padding: 0em;
+}
+#logo{
+  padding:0em;
+  position:relative;
+  left: -30;
+}
+.button {
+    background-color: #eef4d2;
+    border: none;
+    border-bottom: 0px solid #3db0d3;
+    border-top: 8px solid #3db0d3;
+    color: black;
+    /*padding: 15px 32px;*/
+    text-align: center;
+    /*text-decoration: none;*/
+    /*display: inline-block;*/
+    font-size: 14px;
+    /*margin: 4px 2px;*/
+    /*cursor: pointer;*/
+    width: 5.5em;
+    height: 5.5em;
+    position:relative;
+    top: -210;
+    left: 660;
+}
+.paragraph{
+  border:1px solid #3db0d3;
+  padding:.3em;
+  padding-left: 1em;
+  width:400px;
+  color: white;
+  font-family: 'Calibri', 'Candara', 'Segoe', "Segoe UI", 'Optima', 'Arial', sans-serif;
+  position: relative;
+  left: 500;
+  top: -350;
+  font-size: 22;
+}
+#whatsBuggingYou{
+  top:-380;
+}
+#home{
+  background-color: transparent;
+  border: 1px solid #6ebf45;
+  font-size: 18px;
+  padding-bottom: 2em;
+  padding-right: 1em;
+  height: 4em;
+  position:relative;
+  top:-447;
+  left: 582;
+}
+#signin{
+  position:relative;
+  top:-370;
+  left:900;
+  padding-right: 2em;
+  background-color: transparent;
+  border: 5px solid #6ebf45;
+  border-right: transparent;
+  border-radius: 5px;
+  font-size: 20;
+}
+#join{
+  position:relative;
+  top:-370;
+  left:890;
+  padding-left: 2em;
+  background-color: transparent;
+  border: 5px solid #6ebf45;
+  border-radius: 5px;
+  border-left: transparent;
+  font-size: 20;
+}
+
+#press{
+  top:-219;
+}
+#topics{
+  top:-219;
+}
+
+#leftBox {
+	width: 2em;
+	height: 4.5em;
+	background: #99b88f;
+  position: relative;
+  left:622;
+  top:-303;
+}
+#rightBox {
+	width: 1em;
+	height: 4.5em;
+	background: #99b88f;
+  position: relative;
+  left:1148;
+  top:-376;
+}
+#underline {
+	width: 542px;
+	height: 8px;
+	background: #3db0d3;
+  position: relative;
+  left:622;
+  top:-224;
+}
+#footer {
+  width:102.4%;
+  height:100px;
+  background: #fff;
+  position: relative;
+  left: -20;
+  top: 20;
+}
+#call {
+  color: black;
+  position: relative;
+  top: -30;
+  font-size: 24px;
+  text-align: center;
+  font-family: 'Calibri', 'Candara', 'Segoe', "Segoe UI", 'Optima', 'Arial', sans-serif;
+}
+#social {
+  width: 330px;
+  border:1px solid black;
+  padding: .5em;
+  position: relative;
+  top: -80;
+  left: 730;
+}
+#nextPic {
+  /*padding:.5em;*/
+  border: 3px solid orangered;
+  background-color: white;
+  color: orangered;
+  position: relative;
+  top: -550;
+  left: 1050;
+  font-size: 14;
+  height: 75px;
+  width: 100px;
+}
+
+</style>
+
+<script>
+function Afunction() {
+  alert("This button doesn't do anything yet :(");
+}
+
+
+var picNum = 0;
+
+function nextPic(){
+
+  var body = document.getElementsByTagName('body')[0];
+
+  if (picNum === 0){
+    body.style.backgroundImage = 'url(http://gac.sndimg.com/content/dam/images/gac/fullset/2015/5/8/iStock-3003285_Biker-in-Boulder-Colorado.jpg.rend.hgtvcom.1280.853.jpeg)';
+    picNum ++;
+  } else if (picNum === 1){
+    body.style.backgroundImage = 'url(https://www.backcountry.com/wp-content/uploads/2014/04/cassie4.jpg)';
+    picNum ++;
+  } else if (picNum === 2){
+    body.style.backgroundImage = 'url(http://i.ebayimg.com/00/s/NTY1WDg1MA==/z/~~UAAOSwPhdVGrJH/$_32.JPG?set_id=880000500F)';
+    picNum ++;
+  } else if (picNum === 3){
+    body.style.backgroundImage = 'url(background.png)';
+    picNum = 0;
+  }
+
+}
+
+
+
+</script>
