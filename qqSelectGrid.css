@@ -1,0 +1,54 @@
+body{
+  padding:1em;
+}
+.box {
+  height: 70px;
+  width: 70px;
+  border: 1px solid red;
+  margin: 2px;
+  display: inline-block;
+  vertical-align: top;
+  line-height:70px;
+  text-align:center;
+  font-family:helvetica;
+  font-size:14px;
+  font-weight:bold;
+}
+
+.container {
+  width: 350px;
+  position: relative;
+  user-select: none;
+  cursor: crosshair;
+}
+
+.selection { 
+  background-color: rgba(0,0,255,0.2);
+  border: 1px solid blue;
+  position: absolute;
+  /*height: 30px;*/
+}
+
+.selected {
+  background-color: #99e600;
+}
+#rightBox{
+  font-family: monospace;
+  font-size:16px;
+  width:250px;
+  float:right;
+  
+}
+#list{
+  /*float:right;*/
+  text-align:left;
+  border:1px solid navy;
+  color:navy;
+  padding:10px;
+}
+#description{
+  border: 1px solid navy;
+  color: navy;
+  padding:10px;
+  text-align:center;
+}
